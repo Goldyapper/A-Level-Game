@@ -118,7 +118,7 @@ Display_timer_BG_3 = pygame.image.load('images/Display_timer_BG_3.png')#loads th
 
 coin_sound = pygame.mixer.Sound('music/coin.mp3')#imports the coin sound effect 
 coin_sound.set_volume(0.25)#sets the volume to .25
-jump_sound = pygame.mixer.Sound('Mmusic/jump.mp3')#imports the jump sound effect 2
+jump_sound = pygame.mixer.Sound('music/jump.mp3')#imports the jump sound effect 2
 jump_sound.set_volume(0.1)#sets the volume to .05
 click_sound = pygame.mixer.Sound('music/click.mp3')#imports the coin sound effect 
 click_sound.set_volume(0.1)#sets the volume to .1
