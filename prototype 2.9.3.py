@@ -132,14 +132,14 @@ pygame.mixer.music.set_volume(.2)#sets the volume to .2
 pygame.mixer.music.play(-1)#plays indefinetly 
 
 #########################################################################################
-                                     ###Setting the screen###
+                                    ###Setting the screen###
 #########################################################################################
 
 Screen = pygame.display.set_mode((Screen_width, Screen_height))#creates a pygmae display the size of screen width*screen height
 pygame.display.set_caption('Untitled Platformer')#names the screen in the top left
 
 #####################################################w####################################
-                                     ###Functions###
+                                    ###Functions###
 #########################################################################################
 
 
@@ -173,7 +173,7 @@ def reset_level(level):#code to reset/load the level data
     return world#returns the world variable
 
 #########################################################################################
-                                     ###Classes###
+                                    ###Classes###
 #########################################################################################
 
 
@@ -199,10 +199,10 @@ class Button():#code for buttons
 
             if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:#if left mouse button is clicked and button hasn't been clicked
 
-               action = True#action is due when button is pressd
-               self.clicked = True#the button has been presesed
-               click_sound.play()#plays the click sound effect 
-               
+                action = True#action is due when button is pressd
+                self.clicked = True#the button has been presesed
+                click_sound.play()#plays the click sound effect 
+                
         if pygame.mouse.get_pressed()[0] == 0:#if the mouse key has been realeased
 
             self.clicked = False# button hasn't been clicked
